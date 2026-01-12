@@ -1,19 +1,19 @@
 {
-    "version": "0.9.6",
+    "version": "1.0.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/budimanr3101/nahkoda/releases/download/v0.9.6/nahkoda_Windows_x86_64.zip",
+            "url": "https://github.com/budimanr3101/nahkoda/releases/download/v1.0.0/nahkoda_Windows_x86_64.zip",
             "bin": [
                 "nahkoda.exe"
             ],
-            "hash": "85a879ddbe24bf9b00c0978bf650c84bd794902fc2fcc199fbd5eac91c5a030c"
+            "hash": "cfedb4fad89c558281f0603554a1f2720fe3884ce45cbe98067285554d8c7c10"
         },
         "arm64": {
-            "url": "https://github.com/budimanr3101/nahkoda/releases/download/v0.9.6/nahkoda_Windows_arm64.zip",
+            "url": "https://github.com/budimanr3101/nahkoda/releases/download/v1.0.0/nahkoda_Windows_arm64.zip",
             "bin": [
                 "nahkoda.exe"
             ],
-            "hash": "9ecca66c5f2aa02c2385facb503efbbb07240023dfa9a9e37a68ef7cea8e00e1"
+            "hash": "fb1a0080297dcc2626550bba536ee454b7e0a7817bcab28e84cdc6713445b0db"
         }
     },
     "homepage": "https://github.com/budimanr3101/nahkoda",
