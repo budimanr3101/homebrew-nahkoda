@@ -6,14 +6,14 @@
             "bin": [
                 "nahkoda.exe"
             ],
-            "hash": "b8a5b19ea40547ed96461d5f1a122b2ec4c653dc876e76af0af4c426249fb69c"
+            "hash": "7d9701b8d05524280daaac13b4cf1d1be298911b485f8cf36e16293b5f2c7c69"
         },
         "arm64": {
             "url": "https://github.com/budimanr3101/nahkoda/releases/download/v1.3.1/nahkoda_Windows_arm64.zip",
             "bin": [
                 "nahkoda.exe"
             ],
-            "hash": "f85f84c3dd4635dd5ea68bf44623a6a749ae58c1979beb5233aed984d9cb1df4"
+            "hash": "c7c19c1f79b4f59740807b73010f8a5b505261ffbfa380e58b0f61f4a696086b"
         }
     },
     "homepage": "https://github.com/budimanr3101/nahkoda",
