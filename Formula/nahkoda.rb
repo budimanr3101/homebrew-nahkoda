@@ -5,23 +5,23 @@
 class Nahkoda < Formula
   desc "Human-friendly Kubernetes navigator"
   homepage "https://github.com/budimanr3101/nahkoda"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   depends_on "kubectl" => :optional
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.0/nahkoda_Darwin_x86_64.tar.gz"
-      sha256 "c2fbc44357926de3cf6c9b65c20ae42a896188fb0bcec1218e2ae6cd50f47005"
+      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.1/nahkoda_Darwin_x86_64.tar.gz"
+      sha256 "904fc203e29bf0150588fa377edbe2455fbf75a6d3eaf549b08cfae6ca4a57ea"
 
       def install
         bin.install "nahkoda"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.0/nahkoda_Darwin_arm64.tar.gz"
-      sha256 "264ddcc9a01872a77ecb6de5d1574a6c6180079c09e0fa94082340693ae40b3a"
+      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.1/nahkoda_Darwin_arm64.tar.gz"
+      sha256 "089794f92a83ef0383890bafe58785b4dae0c5a144df3135272082c5ef86468f"
 
       def install
         bin.install "nahkoda"
@@ -31,15 +31,15 @@ class Nahkoda < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.0/nahkoda_Linux_x86_64.tar.gz"
-      sha256 "0d60866815e791c4815cabc90534284120033e2a948d4205f899542bb83787d8"
+      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.1/nahkoda_Linux_x86_64.tar.gz"
+      sha256 "ed8c84107200cd1e845f935d8a4481f75aa6b932255495242b4c873cb83557cd"
       def install
         bin.install "nahkoda"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.0/nahkoda_Linux_arm64.tar.gz"
-      sha256 "75f2aefd752fde4cc3c3abc0588f6807f3d32ae7e1fbc10c5d5d219f37144857"
+      url "https://github.com/budimanr3101/nahkoda/releases/download/v1.1.1/nahkoda_Linux_arm64.tar.gz"
+      sha256 "69b1579c6d3ac4c245af686b1536f839bd2adf31d8034fbfd5b0dc89ef81167c"
       def install
         bin.install "nahkoda"
       end
