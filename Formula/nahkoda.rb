@@ -13,7 +13,7 @@ class Nahkoda < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/budimanr3101/nahkoda/releases/download/v1.3.1/nahkoda_Darwin_x86_64.tar.gz"
-      sha256 "e132eef51fa46d540a084f1076ef1331ea889306c2d00015e11890481f572ebb"
+      sha256 "2036333eff5899f5a71a858fdeceee66f74327e2ffbb089569e850947cbcaac5"
 
       def install
         bin.install "nahkoda"
@@ -21,7 +21,7 @@ class Nahkoda < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/budimanr3101/nahkoda/releases/download/v1.3.1/nahkoda_Darwin_arm64.tar.gz"
-      sha256 "dcfd116603b2038303f9cd492af77bf14a0339efd312ce379057ab333203af3e"
+      sha256 "861176efc3caea1f531f35c98eb45f9524907943ba2655768b44b13a7d28269c"
 
       def install
         bin.install "nahkoda"
@@ -32,14 +32,14 @@ class Nahkoda < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/budimanr3101/nahkoda/releases/download/v1.3.1/nahkoda_Linux_x86_64.tar.gz"
-      sha256 "fe2e95f92634b3debc8b5d45fde85060c972f6cdbbbf0bd60dd38e9ab802265b"
+      sha256 "4737ad2cd56a9d5a98cd5b84d18893b412449a4a21fb331d5939413abda35230"
       def install
         bin.install "nahkoda"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/budimanr3101/nahkoda/releases/download/v1.3.1/nahkoda_Linux_arm64.tar.gz"
-      sha256 "702587a7fdd552f9c25620a2c107ed77194881f3b9c383fa9ce4f2e97c313f03"
+      sha256 "4e042b12fff987b5a73a9f47470f7b7f3c426a825a4b27aa75f87a2b32b7e909"
       def install
         bin.install "nahkoda"
       end
